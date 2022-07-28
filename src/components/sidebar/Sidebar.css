@@ -1,0 +1,40 @@
+
+.Sidebar {
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(50,57,66,0.81);
+    width: 230px;
+    height: calc(100vh - 55px);
+    margin-top: 55px;
+    z-index: 20;
+    left: 0;
+}
+
+a { text-decoration: none; }
+
+.Sidebar-Title { padding: 1rem; }
+
+.Sidebar-Inner {
+    padding: 0;
+    color: white;
+    width: 100%;
+    align-items: center;
+}
+
+.Sidebar-List-Item {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s;
+}
+
+.Sidebar-List-Item.active,
+.Sidebar-List-Item:hover { background-color: darkcyan; }
+
+ul { padding: 0; }
+
+.icon {padding-right: 1rem;}
+
+a {color: white;}

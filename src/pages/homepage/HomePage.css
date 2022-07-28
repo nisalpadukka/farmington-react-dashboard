@@ -1,0 +1,17 @@
+.features {
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.icon{
+  color: white;
+  height: 4rem;
+  width:  4rem;
+  font-size: 1.7rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
